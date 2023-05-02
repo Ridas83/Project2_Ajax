@@ -1,0 +1,110 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    width: 90%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+.movie-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    border-bottom: 0.5px solid #474747;
+}
+
+.movie-item img {
+    width: 150px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+.movie-item .title {
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    margin-right: 20px;
+}
+
+.movie-item .time {
+
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.movie-item .day {
+    margin-left: 100px;
+    font-size: 20px;
+    color: #b2b1ac;
+
+}
+
+.movie-item .ratingImg {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+
+
+
+}
+
+#finnkino-logo {
+    width: 70px;
+    height: 40px;
+    float: left;
+}
+
+.header {
+    border-bottom: 0.5px solid yellow;
+    width: 110%;
+    height: 60px;
+
+}
+
+select {
+    margin-top: 30px;
+    margin-left: 180px;
+    border: 0.5px solid yellow;
+    border-radius: 3px;
+    background-color: rgb(25, 25, 25);
+    color: white;
+    width: 300px;
+    height: 25px;
+}
+
+.movie-item .hall {
+
+    font-weight: bold;
+    font-size: 25px;
+    color: #b2b1ac;
+    margin-left: auto;
+
+}
+
+#date {
+    font-size: 20px;
+    color: #b2b1ac;
+    font-weight: bold;
+    margin-left: 180px;
+}
+
+.movie-item .genres {
+    color: gray;
+    font-size: 15px;
+    float: left;
+    max-width: 100px;
+    margin-right: 10px;
+
+}
