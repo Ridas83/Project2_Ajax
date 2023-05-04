@@ -59,8 +59,7 @@ document.getElementById("cities").addEventListener("change", function () {
         var genres =
           show.getElementsByTagName("Genres")[0].childNodes[0].nodeValue;
 
-        // Format the date and time strings for display
-        let dateDay = date.toLocaleDateString();
+        // Format the time strings for display
         let dateT = date.toLocaleTimeString();
         let dateTime = dateT.slice(0, -3);
 
@@ -72,9 +71,7 @@ document.getElementById("cities").addEventListener("change", function () {
         var time = document.createElement("span");
         time.classList.add("time");
         time.textContent = dateTime;
-        var day = document.createElement("span");
-        day.classList.add("day");
-        day.textContent = dateDay;
+
         var showHall = document.createElement("span");
         showHall.classList.add("hall");
         showHall.textContent = hall;
